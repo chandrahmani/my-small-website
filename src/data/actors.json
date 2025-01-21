@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Shah Rukh Khan",
+    "image": "https://english.varthabharati.in/storage/uploads/entertainment/srk_vb_54.jpeg",
+    "bio": "Shah Rukh Khan, also known by the initialism SRK, is an Indian actor and film producer who works in Hindi cinema. Referred to in the media as the",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Salman Khan",
+    "image": "https://www.livemint.com/lm-img/img/2024/10/18/600x338/INDIA-ENTERTAINMENT-CINEMA-BOLLYWOOD-0_1729218029603_1729218097675.jpg",
+    "bio": "Abdul Rashid Salim Salman Khan is an Indian actor, film producer, and television personality who predominantly works in Hindi films. In a career spanning over three decades, Khan's awards,.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Aamir Khan",
+    "image": "https://goldenglobes.com/wp-content/uploads/2023/11/01-aamir-khan-gettyimages-669219114-2017.jpg?w=1522",
+    "bio": "Mohammed Aamir Hussain Khan is an Indian actor, filmmaker, and television personality who works in Hindi films.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Roy",
+    "image": "https://via.placeholder.com/300",
+    "bio": "Roy  is an award-winning actor known for his versatility and dedication to his craft.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Roy",
+    "image": "https://via.placeholder.com/300",
+    "bio": "Roy  is an award-winning actor known for his versatility and dedication to his craft.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Roy",
+    "image": "https://via.placeholder.com/300",
+    "bio": "Roy  is an award-winning actor known for his versatility and dedication to his craft.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Roy",
+    "image": "https://via.placeholder.com/300",
+    "bio": "Roy  is an award-winning actor known for his versatility and dedication to his craft.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  },
+  {
+    "name": "Hasan Rahmani",
+    "image": "https://via.placeholder.com/300",
+    "bio": "Roy  is an award-winning actor known for his versatility and dedication to his craft.",
+    "movies": ["Movie 1", "Movie 2", "Movie 3"]
+  }
+]
