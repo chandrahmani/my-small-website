@@ -21,16 +21,14 @@ export const Actors = () => {
     fetchData();
   }, []);
 
-  const handleSearch = (e: { target: { value: string } }) => {
-    const query = e.target.value.toLowerCase();
-
-    setSearch(query);
-
+  const handleSearch = () => {
     setFilteredActors(
       act.filter(
         (actor) =>
-          actor.name.toLowerCase().includes(query) ||
-          actor.movies.some((movie: any) => movie.toLowerCase().includes(query))
+          actor.name.toLowerCase().includes(search.toLowerCase()) ||
+          actor.movies.some((movie) =>
+            movie.toLowerCase().includes(search.toLowerCase())
+          )
       )
     );
   };
@@ -48,12 +46,12 @@ export const Actors = () => {
             type="text"
             placeholder="Search by name or movie..."
             value={search}
-            onChange={handleSearch}
+            onChange={(e) => setSearch(e.target.value)}
             className="w-full px-4 py-2 mb-6 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
           <button
-            onClick={handleSearch}
             className="bg-blue-500 text-white px-4 py-2 rounded-r-md hover:bg-blue-600"
+            onClick={handleSearch}
           >
             Search
           </button>
@@ -69,7 +67,9 @@ export const Actors = () => {
                 </h2>
                 <img
                   src={actor.image}
-                  alt={`${actor.name}'s image`}
+                  alt={"Actor"}
+                  width={300}
+                  height={200}
                   className="w-full h-40 object-cover rounded-lg mt-4"
                 />
                 <p className="text-gray-600 mt-4">{actor.bio}</p>
